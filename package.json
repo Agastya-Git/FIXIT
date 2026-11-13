@@ -1,0 +1,27 @@
+{
+  "name": "fixit-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FixIt — Campus Support Platform monorepo",
+  "scripts": {
+    "dev": "node run-dev.js",
+    "dev:backend": "cd backend && python -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8002",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "test": "npm --prefix frontend run test",
+    "test:frontend": "npm --prefix frontend run test",
+    "test:backend": "cd backend && python -m pytest -q",
+    "install:all": "npm --prefix frontend install && cd backend && python -m pip install -r requirements-dev.txt",
+    "install:frontend": "npm --prefix frontend install",
+    "install:backend": "cd backend && python -m pip install -r requirements-dev.txt"
+  },
+  "keywords": [
+    "fixit",
+    "campus-support",
+    "fastapi",
+    "react",
+    "vite"
+  ],
+  "author": "",
+  "license": "ISC"
+}
