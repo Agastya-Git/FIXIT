@@ -287,6 +287,25 @@ async def login(credentials: UserLogin, request: Request, response: Response):
         if not institution or institution.get("status", "active") != "active":
             raise HTTPException(status_code=403, detail="This institution workspace is suspended or unavailable.")
 
+    # Strictly enforce approved academic email domains for student and faculty accounts
+    if user.get("role") in {"student", "faculty"}:
+        user_email = user.get("email", "").lower()
+        inst_id = user.get("institution_id") or "INST-DEFAULT"
+        institution = await db.institutions.find_one({"_id": inst_id})
+        
+        allowed_domains = []
+        if institution:
+            specific_domains = institution.get(f"{user['role']}_email_domains") or []
+            general_domains = institution.get("email_domains") or []
+            allowed_domains = [str(d).lower().lstrip("@") for d in (specific_domains + general_domains)]
+        
+        email_dom = user_email.rsplit("@", 1)[-1] if "@" in user_email else ""
+        if (allowed_domains and email_dom not in allowed_domains) or (inst_id == "INST-NIE" and not user_email.endswith("nie.ac.in")):
+            raise HTTPException(
+                status_code=status.HTTP_403_FORBIDDEN,
+                detail=f"Login restricted: Only official {user['role']} accounts with an approved @nie.ac.in email address are permitted to log in."
+            )
+
     # Clear this account’s failed attempts, but do not let a successful login reset
     # the shared IP failure counter and thereby bypass protection for other accounts.
     await clear_login_rate_limits(db, email_key)

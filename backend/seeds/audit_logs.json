@@ -1115,5 +1115,56 @@
       "category": "Lighting, Tube Lights & Bulbs"
     },
     "timestamp": "2026-11-19T18:54:56.298610+00:00"
+  },
+  {
+    "_id": "AUD-731C958177F4",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "login_time": "2026-11-19T19:14:54.584985+00:00"
+    },
+    "timestamp": "2026-11-19T19:14:54.585017+00:00"
+  },
+  {
+    "_id": "AUD-B778ECAFE7E0",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "login_time": "2026-11-19T19:18:50.621024+00:00"
+    },
+    "timestamp": "2026-11-19T19:18:50.621056+00:00"
+  },
+  {
+    "_id": "AUD-010E1249B7B9",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "login_time": "2026-11-19T20:46:57.622470+00:00"
+    },
+    "timestamp": "2026-11-19T20:46:57.622513+00:00"
   }
 ]

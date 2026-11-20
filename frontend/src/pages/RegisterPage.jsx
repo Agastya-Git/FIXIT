@@ -46,6 +46,13 @@ export default function RegisterPage() {
     event.preventDefault();
     setError('');
     setMessage('');
+
+    const emailDomain = formData.email.trim().toLowerCase().split('@')[1] || '';
+    if (selectedInstitution?.slug === 'nie' && !emailDomain.endsWith('nie.ac.in')) {
+      setError('Registration is restricted to official NIE email addresses ending with @nie.ac.in (or @students.nie.ac.in / @faculty.nie.ac.in).');
+      return;
+    }
+
     setLoading(true);
     try {
       const { password, ...registrationDetails } = formData;

@@ -106,7 +106,7 @@
     "message": "[CRITICAL] light is flickering in class (Lighting, Tube Lights & Bulbs)",
     "link": "/tickets/TCK-9146C2E8F2",
     "type": "ticket_created",
-    "is_read": false,
+    "is_read": true,
     "created_at": "2026-11-19T18:54:56.297376+00:00"
   }
 ]

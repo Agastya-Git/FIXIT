@@ -11,23 +11,19 @@
     "created_at": "2026-11-18T20:05:23.914528+00:00",
     "email_domains": [
       "nie.ac.in",
-      "nie.edu",
-      "gmail.com"
+      "students.nie.ac.in",
+      "faculty.nie.ac.in"
     ],
     "faculty_email_domains": [
       "nie.ac.in",
-      "faculty.nie.ac.in",
-      "nie.edu",
-      "gmail.com"
+      "faculty.nie.ac.in"
     ],
     "name": "National Institute of Engineering",
     "slug": "nie",
     "status": "active",
     "student_email_domains": [
       "nie.ac.in",
-      "students.nie.ac.in",
-      "nie.edu",
-      "gmail.com"
+      "students.nie.ac.in"
     ]
   },
   {

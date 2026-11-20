@@ -44,6 +44,14 @@ export default function LoginPage() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
+
+    const trimmedEmail = email.trim().toLowerCase();
+    const emailDomain = trimmedEmail.split('@')[1] || '';
+    if ((effectiveRole === 'student' || effectiveRole === 'faculty') && !emailDomain.endsWith('nie.ac.in')) {
+      setError(`Only official @nie.ac.in email addresses are permitted for ${effectiveRole} sign-in.`);
+      return;
+    }
+
     setLoading(true);
     try {
       await login(email, password);

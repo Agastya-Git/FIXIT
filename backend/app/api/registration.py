@@ -66,8 +66,21 @@ async def request_registration_code(payload: RegistrationRequest, request: Reque
     general_domains = institution.get("email_domains") or []
     role_domains = list(dict.fromkeys(specific_domains + general_domains))
     allowed_domains = [str(domain).lower().lstrip("@") for domain in role_domains]
-    if not allowed_domains or _email_domain(email) not in allowed_domains:
-        raise HTTPException(status_code=403, detail=f"Use an approved {payload.role} email domain for this institution.")
+
+    email_dom = _email_domain(email)
+    if not allowed_domains or email_dom not in allowed_domains:
+        domain_hint = ", ".join(allowed_domains) if allowed_domains else "official college domains"
+        raise HTTPException(
+            status_code=403,
+            detail=f"Registration restricted: Only official {payload.role} email addresses ending with an approved domain ({domain_hint}) are permitted."
+        )
+
+    # Strictly require official nie.ac.in domain for NIE
+    if institution.get("slug") == "nie" and not email.endswith("nie.ac.in"):
+        raise HTTPException(
+            status_code=403,
+            detail="Registration restricted: Only official @nie.ac.in email addresses are permitted for student and faculty registration."
+        )
 
     identifier_pattern = institution.get(f"{payload.role}_identifier_pattern")
     if identifier_pattern:

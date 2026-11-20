@@ -403,9 +403,9 @@ async def main():
             "$set": {
                 "name": "National Institute of Engineering",
                 "slug": "nie",
-                "email_domains": ["nie.ac.in", "nie.edu", "gmail.com"],
-                "student_email_domains": ["nie.ac.in", "students.nie.ac.in", "nie.edu", "gmail.com"],
-                "faculty_email_domains": ["nie.ac.in", "faculty.nie.ac.in", "nie.edu", "gmail.com"],
+                "email_domains": ["nie.ac.in", "students.nie.ac.in", "faculty.nie.ac.in"],
+                "student_email_domains": ["nie.ac.in", "students.nie.ac.in"],
+                "faculty_email_domains": ["nie.ac.in", "faculty.nie.ac.in"],
                 "status": "active"
             },
             "$setOnInsert": {"created_at": NOW}
