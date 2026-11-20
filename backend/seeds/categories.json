@@ -1,0 +1,568 @@
+[
+  {
+    "_id": "CAT-6F1DC576",
+    "name": "Wi-Fi & Wireless Connectivity",
+    "institution_id": "INST-NIE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for wi-fi & wireless connectivity",
+    "icon": "Wifi",
+    "is_active": true,
+    "subcategories": [
+      "No Signal",
+      "Frequent Disconnection",
+      "Captive Portal Timeout",
+      "Slow Speed",
+      "Authentication Error"
+    ]
+  },
+  {
+    "_id": "CAT-B8D077C6",
+    "institution_id": "INST-NIE",
+    "name": "LAN, Ethernet & Network Cables",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for lan, ethernet & network cables",
+    "icon": "Network",
+    "is_active": true,
+    "subcategories": [
+      "Port Damaged",
+      "Cable Missing",
+      "IP Conflict",
+      "Unidentified Network"
+    ]
+  },
+  {
+    "_id": "CAT-0DB2B871",
+    "name": "Network Switches, Routers & Firewalls",
+    "institution_id": "INST-NIE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for network switches, routers & firewalls",
+    "icon": "Server",
+    "is_active": true,
+    "subcategories": [
+      "Switch Port Dead",
+      "Switch Rebooting",
+      "VLAN Misconfigured"
+    ]
+  },
+  {
+    "_id": "CAT-BB8FE579",
+    "institution_id": "INST-NIE",
+    "name": "Desktop Computers & Lab Workstations",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for desktop computers & lab workstations",
+    "icon": "Monitor",
+    "is_active": true,
+    "subcategories": [
+      "No Power",
+      "BSOD / Crash",
+      "RAM Issue",
+      "Overheating",
+      "Display Blank"
+    ]
+  },
+  {
+    "_id": "CAT-3E091061",
+    "name": "Laptops & Portable Devices",
+    "institution_id": "INST-NIE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for laptops & portable devices",
+    "icon": "Laptop",
+    "is_active": true,
+    "subcategories": [
+      "Battery Issue",
+      "Charger Port",
+      "Keyboard Failure"
+    ]
+  },
+  {
+    "_id": "CAT-42978C61",
+    "institution_id": "INST-NIE",
+    "name": "Monitors, Screens & Displays",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for monitors, screens & displays",
+    "icon": "Tv",
+    "is_active": true,
+    "subcategories": [
+      "Flickering",
+      "No Video Signal",
+      "Dead Pixels",
+      "Colors Distorted"
+    ]
+  },
+  {
+    "_id": "CAT-2D5BE4F3",
+    "name": "Keyboards, Mice & Input Peripherals",
+    "institution_id": "INST-NIE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for keyboards, mice & input peripherals",
+    "icon": "Keyboard",
+    "is_active": true,
+    "subcategories": [
+      "Keys Sticking",
+      "Mouse Pointer Frozen",
+      "USB Port Fault"
+    ]
+  },
+  {
+    "_id": "CAT-A9F72C83",
+    "institution_id": "INST-NIE",
+    "name": "Classroom Projectors & Screens",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for classroom projectors & screens",
+    "icon": "Tv",
+    "is_active": true,
+    "subcategories": [
+      "HDMI No Signal",
+      "Dim / Faded Lamp",
+      "Projector Overheated",
+      "Screen Won't Lower"
+    ]
+  },
+  {
+    "_id": "CAT-3BD95EE9",
+    "name": "Interactive Smart Boards & Digital Displays",
+    "institution_id": "INST-NIE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for interactive smart boards & digital displays",
+    "icon": "Tablet",
+    "is_active": true,
+    "subcategories": [
+      "Touch Sensor Desynced",
+      "Stylus Broken",
+      "Board Software Crash"
+    ]
+  },
+  {
+    "_id": "CAT-F6055709",
+    "institution_id": "INST-NIE",
+    "name": "Audio Systems, Microphones & Speakers",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for audio systems, microphones & speakers",
+    "icon": "Volume2",
+    "is_active": true,
+    "subcategories": [
+      "Podium Mic Silent",
+      "High-Pitched Feedback",
+      "Speaker Distorted"
+    ]
+  },
+  {
+    "_id": "CAT-B44BFA2F",
+    "name": "Digital Podium & AV Equipment",
+    "institution_id": "INST-NIE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for digital podium & av equipment",
+    "icon": "Presentation",
+    "is_active": true,
+    "subcategories": [
+      "Touch Console Unresponsive",
+      "Switcher Port Damaged",
+      "Gooseneck Mic Loose"
+    ]
+  },
+  {
+    "_id": "CAT-1FC433E3",
+    "institution_id": "INST-NIE",
+    "name": "Operating System & Boot Errors",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for operating system & boot errors",
+    "icon": "Terminal",
+    "is_active": true,
+    "subcategories": [
+      "Grub Bootloader Error",
+      "Windows Recovery Loop",
+      "Corrupted File System"
+    ]
+  },
+  {
+    "_id": "CAT-2537BBB1",
+    "institution_id": "INST-NIE",
+    "name": "Software Installation & Applications",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for software installation & applications",
+    "icon": "Download",
+    "is_active": true,
+    "subcategories": [
+      "VS Code Setup",
+      "MATLAB Package Missing",
+      "Database Driver Error"
+    ]
+  },
+  {
+    "_id": "CAT-E1F1D1E2",
+    "name": "Software Licenses & Key Activation",
+    "institution_id": "INST-NIE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for software licenses & key activation",
+    "icon": "Key",
+    "is_active": true,
+    "subcategories": [
+      "AutoCAD License Expired",
+      "Network License Server Down",
+      "Activation Timeout"
+    ]
+  },
+  {
+    "_id": "CAT-BF877F26",
+    "institution_id": "INST-NIE",
+    "name": "Compiler, IDE & Development Tools",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for compiler, ide & development tools",
+    "icon": "Code",
+    "is_active": true,
+    "subcategories": [
+      "GCC Path Missing",
+      "Python Virtualenv Broken",
+      "Java JDK Not Found"
+    ]
+  },
+  {
+    "_id": "CAT-05D111F5",
+    "name": "Campus ERP, Student Portal & Marks Entry",
+    "institution_id": "INST-NIE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for campus erp, student portal & marks entry",
+    "icon": "Globe",
+    "is_active": true,
+    "subcategories": [
+      "Grade Portal 500 Error",
+      "Fee Payment Gateway Pending",
+      "Attendance Missing"
+    ]
+  },
+  {
+    "_id": "CAT-6F3DFF2E",
+    "institution_id": "INST-NIE",
+    "name": "College Email & Account Access",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for college email & account access",
+    "icon": "Mail",
+    "is_active": true,
+    "subcategories": [
+      "Account Locked",
+      "Two-Factor Auth Reset",
+      "Password Expired"
+    ]
+  },
+  {
+    "_id": "CAT-3A12FABF",
+    "name": "Antivirus, Security & Malware",
+    "institution_id": "INST-NIE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for antivirus, security & malware",
+    "icon": "Shield",
+    "is_active": true,
+    "subcategories": [
+      "Malware Detected",
+      "Blocked Academic URL",
+      "Firewall Exception Needed"
+    ]
+  },
+  {
+    "_id": "CAT-DE877502",
+    "institution_id": "INST-NIE",
+    "name": "Printers, Scanners & Copiers",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for printers, scanners & copiers",
+    "icon": "Printer",
+    "is_active": true,
+    "subcategories": [
+      "Paper Jam",
+      "Toner Empty",
+      "Network Spooler Dead",
+      "Scanner Glass Dirty"
+    ]
+  },
+  {
+    "_id": "CAT-6AB77D12",
+    "name": "Power Sockets & Electrical Outlets",
+    "institution_id": "INST-NIE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for power sockets & electrical outlets",
+    "icon": "Zap",
+    "is_active": true,
+    "subcategories": [
+      "Wall Socket Loose",
+      "No Power to Bench",
+      "Sparking / Burnt Outlet"
+    ]
+  },
+  {
+    "_id": "CAT-C2C00E6E",
+    "institution_id": "INST-NIE",
+    "name": "Ceiling Fans & Regulators",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for ceiling fans & regulators",
+    "icon": "Wind",
+    "is_active": true,
+    "subcategories": [
+      "Fan Regulator Broken",
+      "Noise / Vibration",
+      "Ceiling Fan Stopped"
+    ]
+  },
+  {
+    "_id": "CAT-AEE4BE45",
+    "name": "Air Conditioning (AC) & Cooling",
+    "institution_id": "INST-NIE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for air conditioning (ac) & cooling",
+    "icon": "Thermometer",
+    "is_active": true,
+    "subcategories": [
+      "AC Blowing Warm Air",
+      "Water Leaking Inside",
+      "Remote Not Working"
+    ]
+  },
+  {
+    "_id": "CAT-9D0FECF9",
+    "institution_id": "INST-NIE",
+    "name": "Lighting, Tube Lights & Bulbs",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for lighting, tube lights & bulbs",
+    "icon": "Sun",
+    "is_active": true,
+    "subcategories": [
+      "Tube Light Flickering",
+      "Bulb Fused",
+      "Emergency Exit Light Off"
+    ]
+  },
+  {
+    "_id": "CAT-54C2EBBC",
+    "name": "Electrical Switchboards, MCB & Breakers",
+    "institution_id": "INST-NIE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for electrical switchboards, mcb & breakers",
+    "icon": "AlertTriangle",
+    "is_active": true,
+    "subcategories": [
+      "MCB Tripping Frequently",
+      "Burnt Smell from Board",
+      "Sub-station Fluctuation"
+    ]
+  },
+  {
+    "_id": "CAT-29B5DD7A",
+    "institution_id": "INST-NIE",
+    "name": "UPS & Power Backup Battery",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for ups & power backup battery",
+    "icon": "BatteryCharging",
+    "is_active": true,
+    "subcategories": [
+      "UPS Beeping Continuously",
+      "Zero Battery Backup",
+      "Overload Alarm"
+    ]
+  },
+  {
+    "_id": "CAT-B7FCBD06",
+    "name": "Drinking Water Coolers & Purifiers",
+    "institution_id": "INST-NIE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for drinking water coolers & purifiers",
+    "icon": "Droplet",
+    "is_active": true,
+    "subcategories": [
+      "Water Not Chilling",
+      "Filter Water Taste",
+      "Purifier Overflow / Leak"
+    ]
+  },
+  {
+    "_id": "CAT-AA4AF633",
+    "institution_id": "INST-NIE",
+    "name": "Restrooms, Plumbing & Sanitation",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for restrooms, plumbing & sanitation",
+    "icon": "Tool",
+    "is_active": true,
+    "subcategories": [
+      "Tap Leaking",
+      "Flush Broken",
+      "Clogged Basin Drain",
+      "Low Water Pressure"
+    ]
+  },
+  {
+    "_id": "CAT-214BB94E",
+    "name": "Student Benches, Desks & Classroom Seating",
+    "institution_id": "INST-NIE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for student benches, desks & classroom seating",
+    "icon": "Armchair",
+    "is_active": true,
+    "subcategories": [
+      "Desk Wooden Planks Broken",
+      "Loose Screws",
+      "Wobbly Chair"
+    ]
+  },
+  {
+    "_id": "CAT-FE64D600",
+    "institution_id": "INST-NIE",
+    "name": "Faculty Desks, Chairs & Office Furniture",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for faculty desks, chairs & office furniture",
+    "icon": "Briefcase",
+    "is_active": true,
+    "subcategories": [
+      "Hydraulic Chair Sinking",
+      "Cabinet Lock Broken",
+      "Desk Drawer Stuck"
+    ]
+  },
+  {
+    "_id": "CAT-DB8A71C0",
+    "name": "Doors, Windows, Glass & Locks",
+    "institution_id": "INST-NIE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for doors, windows, glass & locks",
+    "icon": "Lock",
+    "is_active": true,
+    "subcategories": [
+      "Door Latch Broken",
+      "Window Glass Cracked",
+      "Key Stuck in Lock"
+    ]
+  },
+  {
+    "_id": "CAT-34A92082",
+    "institution_id": "INST-NIE",
+    "name": "Whiteboards, Notice Boards & Markers",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for whiteboards, notice boards & markers",
+    "icon": "FileText",
+    "is_active": true,
+    "subcategories": [
+      "Whiteboard Stained / Uncleanable",
+      "Board Mount Loose"
+    ]
+  },
+  {
+    "_id": "CAT-8567CFD0",
+    "name": "Elevators, Lifts & Accessibility",
+    "institution_id": "INST-NIE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for elevators, lifts & accessibility",
+    "icon": "ArrowUpDown",
+    "is_active": true,
+    "subcategories": [
+      "Lift Button Unresponsive",
+      "Lift Jerking Between Floors",
+      "Ramp Railing Loose"
+    ]
+  },
+  {
+    "_id": "CAT-57267D65",
+    "institution_id": "INST-NIE",
+    "name": "CCTV Cameras & Campus Surveillance",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for cctv cameras & campus surveillance",
+    "icon": "Camera",
+    "is_active": true,
+    "subcategories": [
+      "Camera Feed Offline",
+      "Night Vision Glitch",
+      "Obstructed Angle"
+    ]
+  },
+  {
+    "_id": "CAT-01D29695",
+    "name": "Laboratory Apparatus & Test Instruments",
+    "institution_id": "INST-NIE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for laboratory apparatus & test instruments",
+    "icon": "Activity",
+    "is_active": true,
+    "subcategories": [
+      "Oscilloscope Calib Error",
+      "Function Generator Dead",
+      "Multimeter Fuse Blown"
+    ]
+  },
+  {
+    "_id": "CAT-E49CA162",
+    "institution_id": "INST-NIE",
+    "name": "Hostel Accommodation & Facilities",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for hostel accommodation & facilities",
+    "icon": "Home",
+    "is_active": true,
+    "subcategories": [
+      "Geyser Not Working",
+      "Room Door Lock",
+      "Hostel Wi-Fi Deadzone"
+    ]
+  },
+  {
+    "_id": "CAT-64D632BB",
+    "name": "Library Workstations & RFID Scanners",
+    "institution_id": "INST-NIE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for library workstations & rfid scanners",
+    "icon": "BookOpen",
+    "is_active": true,
+    "subcategories": [
+      "RFID Gate Beeping Fault",
+      "Self-Checkout Kiosk Frozen"
+    ]
+  },
+  {
+    "_id": "CAT-41292BB4",
+    "institution_id": "INST-NIE",
+    "name": "Auditorium Stage Sound & Lighting",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for auditorium stage sound & lighting",
+    "icon": "Mic",
+    "is_active": true,
+    "subcategories": [
+      "Spotlight Failure",
+      "Stage Monitor Silent",
+      "Audio Console Noise"
+    ]
+  },
+  {
+    "_id": "CAT-524023D7",
+    "name": "Cafeteria Facilities & Dining Area",
+    "institution_id": "INST-NIE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for cafeteria facilities & dining area",
+    "icon": "Coffee",
+    "is_active": true,
+    "subcategories": [
+      "Handwash Area Drain Block",
+      "Seating Broken",
+      "Cleanliness Issue"
+    ]
+  },
+  {
+    "_id": "CAT-F24F3FEC",
+    "institution_id": "INST-NIE",
+    "name": "Sports Complex & Gymnasium Equipment",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for sports complex & gymnasium equipment",
+    "icon": "Dumbbell",
+    "is_active": true,
+    "subcategories": [
+      "Treadmill Belt Loose",
+      "Badminton Net Post Torn"
+    ]
+  },
+  {
+    "_id": "CAT-DE18F418",
+    "name": "General Campus Facilities & Maintenance",
+    "institution_id": "INST-NIE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "description": "Campus issue reporting for general campus facilities & maintenance",
+    "icon": "Wrench",
+    "is_active": true,
+    "subcategories": [
+      "Pathway Paver Uneven",
+      "Garden Water Sprinkler",
+      "Signboard Damaged"
+    ]
+  }
+]

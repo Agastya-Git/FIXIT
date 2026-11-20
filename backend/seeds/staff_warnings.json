@@ -1,0 +1,19 @@
+[
+  {
+    "_id": "WARN-90FBD7C43A",
+    "institution_id": "INST-NIE",
+    "staff_id": "USR-AFA616DE69",
+    "ticket_id": "TCK-D9F639F3B1",
+    "ticket_number": "FIXIT-2026-0001",
+    "ticket_title": "Main UPS tripped and power sockets dead across Lab 1",
+    "priority": "critical",
+    "sla_deadline": "2026-11-19T12:27:07.122930+00:00",
+    "grace_hours": 2,
+    "issued_at": "2026-11-19T17:27:07.125106+00:00",
+    "pardoned": false,
+    "pardoned_by": null,
+    "pardoned_at": null,
+    "pardon_reason": null,
+    "strike_id": null
+  }
+]

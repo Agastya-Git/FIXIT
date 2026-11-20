@@ -1,0 +1,102 @@
+[
+  {
+    "_id": "DEP-109B1634",
+    "institution_id": "INST-NIE",
+    "name": "Computer Science & Engineering",
+    "code": "CSE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "email": "hod.cse@nie.ac.in",
+    "head_name": "Dr. Ananya Murthy",
+    "is_active": true
+  },
+  {
+    "_id": "DEP-EE53576A",
+    "name": "Information Science & Engineering",
+    "institution_id": "INST-NIE",
+    "code": "ISE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "email": "hod.ise@nie.ac.in",
+    "head_name": "Dr. Suresh Bhat",
+    "is_active": true
+  },
+  {
+    "_id": "DEP-606B672B",
+    "institution_id": "INST-NIE",
+    "name": "Electronics & Communication Engineering",
+    "code": "ECE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "email": "hod.ece@nie.ac.in",
+    "head_name": "Dr. Ramesh Kulkarni",
+    "is_active": true
+  },
+  {
+    "_id": "DEP-C3DBD64C",
+    "name": "Electrical & Electronics Engineering",
+    "institution_id": "INST-NIE",
+    "code": "EEE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "email": "hod.eee@nie.ac.in",
+    "head_name": "Dr. Girish Kumar",
+    "is_active": true
+  },
+  {
+    "_id": "DEP-0B3A4605",
+    "institution_id": "INST-NIE",
+    "name": "Mechanical Engineering",
+    "code": "MECH",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "email": "hod.mech@nie.ac.in",
+    "head_name": "Dr. Vinod Prasad",
+    "is_active": true
+  },
+  {
+    "_id": "DEP-877BE469",
+    "name": "Civil Engineering",
+    "institution_id": "INST-NIE",
+    "code": "CIVIL",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "email": "hod.civil@nie.ac.in",
+    "head_name": "Dr. Nandini Patil",
+    "is_active": true
+  },
+  {
+    "_id": "DEP-A728BECB",
+    "institution_id": "INST-NIE",
+    "name": "Campus IT & Network Operations",
+    "code": "IT-OPS",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "email": "itops@nie.ac.in",
+    "head_name": "Mr. Satish Nayak",
+    "is_active": true
+  },
+  {
+    "_id": "DEP-7ED704F1",
+    "name": "Facilities & Maintenance",
+    "institution_id": "INST-NIE",
+    "code": "ESTATE",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "email": "facilities@nie.ac.in",
+    "head_name": "Mr. Raghavendra Rao",
+    "is_active": true
+  },
+  {
+    "_id": "DEP-EEE42708",
+    "institution_id": "INST-NIE",
+    "name": "General Administration",
+    "code": "ADMIN",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "email": "registrar@nie.ac.in",
+    "head_name": "Registrar Office",
+    "is_active": true
+  },
+  {
+    "_id": "DEP-4DE1C73D",
+    "name": "Library Services",
+    "institution_id": "INST-NIE",
+    "code": "LIB",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "email": "library@nie.ac.in",
+    "head_name": "Chief Librarian",
+    "is_active": true
+  }
+]

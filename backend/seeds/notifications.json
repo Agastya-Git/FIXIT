@@ -1,0 +1,112 @@
+[
+  {
+    "_id": "NOTIF-DA04A985F435",
+    "user_id": "USR-AFA616DE69",
+    "institution_id": "INST-NIE",
+    "title": "New Ticket Assigned: FIXIT-2026-0001",
+    "message": "Main UPS tripped and power sockets dead across Lab 1 in Academic Block Room G01",
+    "link": "/tickets/TCK-D9F639F3B1",
+    "type": "ticket_assigned",
+    "is_read": false,
+    "created_at": "2026-11-19T11:18:46.032879+00:00"
+  },
+  {
+    "_id": "NOTIF-F911E7E67338",
+    "user_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "title": "New Ticket Created: FIXIT-2026-0001",
+    "message": "[CRITICAL] Main UPS tripped and power sockets dead across Lab 1 (Network Switches, Routers & Firewalls)",
+    "link": "/tickets/TCK-D9F639F3B1",
+    "type": "ticket_created",
+    "is_read": true,
+    "created_at": "2026-11-19T11:18:50.718484+00:00"
+  },
+  {
+    "_id": "NOTIF-D5654279D1FF",
+    "user_id": "USR-68216D7A1E",
+    "institution_id": "INST-NIE",
+    "title": "New Ticket Assigned: FIXIT-2026-0002",
+    "message": "Classroom wooden bench armrest loose and needs tightening in Academic Block Room Classroom 201",
+    "link": "/tickets/TCK-D483A30F3C",
+    "type": "ticket_assigned",
+    "is_read": false,
+    "created_at": "2026-11-19T11:27:50.677188+00:00"
+  },
+  {
+    "_id": "NOTIF-DC87E0D6B0D2",
+    "user_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "title": "New Ticket Created: FIXIT-2026-0002",
+    "message": "[MEDIUM] Classroom wooden bench armrest loose and needs tightening (Student Benches, Desks & Classroom Seating)",
+    "link": "/tickets/TCK-D483A30F3C",
+    "type": "ticket_created",
+    "is_read": true,
+    "created_at": "2026-11-19T11:27:56.742457+00:00"
+  },
+  {
+    "_id": "NOTIF-6A3C3154B186",
+    "user_id": "USR-AFA616DE69",
+    "institution_id": "INST-NIE",
+    "title": "New Ticket Assigned: FIXIT-2026-0003",
+    "message": "Personal locker lock broken and belongings vulnerable in Academic Block Room Classroom 101",
+    "link": "/tickets/TCK-60DD2AD346",
+    "type": "ticket_assigned",
+    "is_read": false,
+    "created_at": "2026-11-19T11:32:31.714274+00:00"
+  },
+  {
+    "_id": "NOTIF-6B66BEBAE2F0",
+    "user_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "title": "New Ticket Created: FIXIT-2026-0003",
+    "message": "[HIGH] Personal locker lock broken and belongings vulnerable (Student Benches, Desks & Classroom Seating)",
+    "link": "/tickets/TCK-60DD2AD346",
+    "type": "ticket_created",
+    "is_read": true,
+    "created_at": "2026-11-19T11:32:37.907969+00:00"
+  },
+  {
+    "_id": "NOTIF-8C51ABB0C9F5",
+    "user_id": "USR-AFA616DE69",
+    "institution_id": "INST-NIE",
+    "title": "\u26a0\ufe0f Warning: SLA Breach on FIXIT-2026-0001",
+    "message": "A warning has been issued regarding ticket FIXIT-2026-0001 (CRITICAL priority). The ticket has remained unresolved beyond the SLA deadline plus the 2-hour grace period. Three warnings within 30 days trigger an administrative strike. Please update or resolve this ticket promptly.",
+    "link": "/tickets/TCK-D9F639F3B1",
+    "type": "sla_warning",
+    "is_read": false,
+    "created_at": "2026-11-19T17:05:59.980920+00:00"
+  },
+  {
+    "_id": "NOTIF-767F5A83D8A0",
+    "user_id": "USR-AFA616DE69",
+    "institution_id": "INST-NIE",
+    "title": "\u26a0\ufe0f Warning: SLA Breach on FIXIT-2026-0001",
+    "message": "A warning has been issued regarding ticket FIXIT-2026-0001 (CRITICAL priority). The ticket has remained unresolved beyond the SLA deadline plus the 2-hour grace period. Three warnings within 30 days trigger an administrative strike. Please update or resolve this ticket promptly.",
+    "link": "/tickets/TCK-D9F639F3B1",
+    "type": "sla_warning",
+    "is_read": false,
+    "created_at": "2026-11-19T17:27:07.156879+00:00"
+  },
+  {
+    "_id": "NOTIF-04B8F6360AEE",
+    "user_id": "USR-68216D7A1E",
+    "institution_id": "INST-NIE",
+    "title": "New Ticket Assigned: FIXIT-2026-0004",
+    "message": "light is flickering in class in Academic Block Room 101",
+    "link": "/tickets/TCK-9146C2E8F2",
+    "type": "ticket_assigned",
+    "is_read": false,
+    "created_at": "2026-11-19T18:54:49.530049+00:00"
+  },
+  {
+    "_id": "NOTIF-920B83AC238C",
+    "user_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "title": "New Ticket Created: FIXIT-2026-0004",
+    "message": "[CRITICAL] light is flickering in class (Lighting, Tube Lights & Bulbs)",
+    "link": "/tickets/TCK-9146C2E8F2",
+    "type": "ticket_created",
+    "is_read": false,
+    "created_at": "2026-11-19T18:54:56.297376+00:00"
+  }
+]

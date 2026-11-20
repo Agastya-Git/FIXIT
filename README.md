@@ -1,0 +1,208 @@
+# FixIt — Campus Issue Management Platform
+
+[![FixIt CI/CD Pipeline](https://github.com/Agastya-Git/FIXIT/actions/workflows/ci.yml/badge.svg)](https://github.com/Agastya-Git/FIXIT/actions/workflows/ci.yml)
+![Docker](https://img.shields.io/badge/Docker-Containerized-blue?logo=docker)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?logo=fastapi)
+![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react)
+![MongoDB](https://img.shields.io/badge/MongoDB-Motor-47A248?logo=mongodb)
+![CI/CD](https://img.shields.io/badge/GitHub_Actions-Automated_CI%2FCD-2088FF?logo=githubactions)
+
+> **Project Expo Evaluation (30 Marks)**  
+> Comprehensive campus issue intake, automated domain routing, SLA warning system, role-based governance, containerized via **Docker**, and verified with an end-to-end **GitHub Actions CI/CD Pipeline**.
+
+---
+
+## 🏆 Project Expo 2026 — Technical Demonstration Guide
+
+### 1. Fully Functional CI/CD Pipeline & GitHub Actions (Component 1 & 2)
+The repository enforces automated continuous integration and delivery configured in [`.github/workflows/ci.yml`](.github/workflows/ci.yml):
+* **Stage 1 (Backend Verification):** Sets up Python 3.12, installs dev dependencies, and executes 139 automated tests covering authentication, ticket lifecycle, SLA escalation, and multi-tenant security.
+* **Stage 2 (Frontend Build & Test):** Sets up Node.js 22, runs Vitest unit tests, and compiles production web assets with Vite.
+* **Stage 3 (Docker Containerization):** Validates Compose syntax, builds the backend production container, builds the multi-stage Nginx frontend container, and verifies build artifacts before deployment.
+
+### 2. Effective Docker Utilization (Component 3)
+* **Backend Container (`backend/Dockerfile`):** Python 3.12 slim image with health checks, bundled dataset seeds, non-root execution, and Uvicorn server.
+* **Frontend Container (`frontend/Dockerfile`):** Multi-stage Docker build with Node 24 alpine build step and an optimized Nginx alpine runner serving static assets with gzip and routing.
+* **Orchestration (`docker-compose.production.yml`):** Connects frontend and backend services on an isolated bridge network with health checks and volume persistence.
+
+#### One-Command Docker Demonstration:
+```bash
+# Spin up the entire containerized application stack
+docker compose -f docker-compose.production.yml up -d --build
+
+# View active containers and health status
+docker compose -f docker-compose.production.yml ps
+
+# View live container logs
+docker compose -f docker-compose.production.yml logs -f
+```
+
+### 3. Pre-Loaded Demonstration Accounts (Seeds)
+The project comes packaged with pre-configured seed data (`backend/seeds/`):
+* **Student:** `2025cs_agastyashetty_a@nie.ac.in` / `Student@123`
+* **Staff (Hardware & Network):** `2025cs_ankanghosh_a@nie.ac.in` / `Staff@123`
+* **Staff (Maintenance):** `2025cs_anuragsingh_a@nie.ac.in` / `Staff@123`
+* **Faculty:** `meera.rao@faculty.nie.ac.in` / `Faculty@123`
+* **Campus Administrator:** `admin@nie.ac.in` / `Admin@123`
+* **Platform Administrator:** `platform.admin@fixit.org` / `PlatformAdmin@123`
+
+---
+
+
+FixIt is a flexible issue-intake and resolution platform for students, faculty, staff, and administrators. It starts with campus IT helpdesk workflows and also supports academic, administrative, facilities, student-support, community, and other requests.
+
+## Supported request domains
+
+The ticket workflow supports these request domains:
+
+- **Technical:** devices, software, accounts, connectivity, and IT services.
+- **Academic:** learning support, subject guidance, project support, and academic resources.
+- **Administrative:** forms, documentation, campus processes, and service enquiries.
+- **Facilities:** maintenance, utilities, classroom equipment, and campus infrastructure.
+- **Student support:** guidance and requests that should be routed to an appropriate, authorized support team.
+- **Community:** shared concerns and community assistance.
+- **Other:** requests that do not fit a listed domain.
+
+Each request can be associated with a campus location, an online/remote context, or no specific location. Campus-located tickets continue to use the configured campus/building/floor/room hierarchy. Remote and location-independent tickets use the same authentication, assignment, status, notification, audit, and SLA workflow without requiring campus coordinates.
+
+The domain is a routing classification, not a promise that FixIt itself can provide every specialist service. Sensitive or high-risk requests must be routed to trained, authorized people; the platform should not present automated responses as medical, legal, financial, or emergency advice.
+
+## Included user-facing features
+
+- **Notifications:** authenticated in-app alerts, read/unread state, and per-user notification preferences. Email delivery is optional and requires SMTP configuration.
+- **Profiles:** editable name, department, phone, HTTPS profile-image URL or uploaded profile picture; password changes revoke existing sessions.
+- **Preferences:** light/dark appearance, saved English, Hindi, Kannada, Tamil, Telugu, Malayalam, Marathi and Bengali language preference, and in-app/email notification toggles. Translation coverage is currently partial: shared navigation and profile/security preferences have translations across the supported languages, while many page-specific labels and workflows remain in English.
+- **Ticket conversations:** ticket-specific replies, staff-only internal notes, chronological history, and up to five uploaded attachments per message. Authenticated uploads support JPG, PNG, WEBP, GIF, PDF and TXT files up to 5 MB each. Files are stored in MongoDB and downloads are authorized against the user's ticket access; profile images are restricted to their owner and administrators. For larger deployments, use dedicated object storage rather than growing MongoDB documents.
+- **Knowledge base:** searchable articles, FAQs, categories, helpfulness feedback, staff/admin article creation and editing, draft publishing, and admin-only deletion with audit records.
+
+### Optional email delivery
+
+Configure these environment variables on the backend to enable email notifications. If SMTP is not configured, in-app notifications continue to work and email is skipped.
+
+```env
+APP_BASE_URL=https://your-fixit-domain.example
+SMTP_HOST=
+SMTP_PORT=587
+SMTP_USERNAME=
+SMTP_PASSWORD=
+SMTP_FROM_EMAIL=
+SMTP_STARTTLS=true
+```
+
+## Project structure
+
+- `backend/` — FastAPI API, MongoDB integration, authentication, ticket workflows, and automated tests.
+- `frontend/` — React + Vite web application.
+- `docker-compose.production.yml` — production container orchestration for the frontend and backend.
+- `.env.production.example` — template only; it contains no real credentials.
+
+## Run locally with a single command
+
+From the project root:
+
+```powershell
+npm run dev
+```
+
+This starts both:
+- **Backend:** FastAPI / Uvicorn on `http://127.0.0.1:8002`
+- **Frontend:** React + Vite on `http://localhost:5175`
+
+Open `http://localhost:5175` in your browser.
+
+---
+
+### Alternative: Running services separately
+
+**Terminal 1 — backend**
+
+```powershell
+cd .\backend
+python -m pip install -r requirements.txt
+python -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8002
+```
+
+**Terminal 2 — frontend**
+
+```powershell
+cd .\frontend
+npm ci
+npm run dev
+```
+
+Open `http://localhost:5173`.
+
+The Vite development proxy targets `http://127.0.0.1:8002` by default. To use another backend port, set `VITE_DEV_API_PROXY_TARGET` in `frontend/.env.local`, for example:
+
+```env
+VITE_DEV_API_PROXY_TARGET=http://127.0.0.1:8001
+```
+
+## Verification
+
+```powershell
+# Backend
+cd .\backend
+python -m pytest -q
+
+# Frontend
+cd ..\frontend
+npm ci
+npm run test
+npm run build
+```
+
+## Production deployment
+
+1. Provision a MongoDB database (MongoDB Atlas is suitable) and create a dedicated application database user with only the permissions the app needs.
+2. Copy `.env.production.example` to `.env.production` in the project root.
+3. Replace every placeholder. Use a unique `SECRET_KEY` of at least 64 characters, a MongoDB URI with a URL-encoded password, the actual public hostname in `ALLOWED_HOSTS`, and the matching HTTPS origin in `BACKEND_CORS_ORIGINS`.
+4. Keep demo seeding, mock-database fallback, and API docs disabled for production. Enable public registration only with SMTP configured, using the college-email verification flow described below.
+5. Run `docker compose -f docker-compose.production.yml up --build -d`.
+6. Put the frontend behind a TLS-enabled reverse proxy or hosting platform. The included frontend container listens on port 8080 on the host; configure HTTPS and DNS at your hosting provider.
+7. Confirm `/health` reports `mongodb_connected` and test login, ticket creation, assignment, comments, notifications, and role permissions before opening access to users.
+
+The deployment template deliberately does not create a database, seed demo users, or invent credentials. Do not upload `.env.production` to source control or share it in chat.
+
+## Data safety
+
+- Back up the database before deploying any application update.
+- Do not drop the database or collections to apply code updates.
+- The seed routine is insert-only and skips existing matching records.
+- The supplied archive does not contain your private `.env`, live MongoDB database, or production account credentials.
+- Demo account shortcuts are development-only. Production self-registration is available only when SMTP, APP_BASE_URL, and PUBLIC_REGISTRATION_ENABLED=true are configured; accounts are not created until the institution email OTP is verified.
+- Use a unique administrator password. Do not use demo credentials for a real deployment.
+
+See `backend/README_QA.md` for backend setup and first-administrator bootstrap details.
+
+
+## Multi-institution workspaces
+
+FixIt supports separate institution workspaces. Each workspace owns its users, campus hierarchy, blocks, floors, rooms, custom locations, tickets, support staff, knowledge-base articles, incidents, feedback, analytics, SLA policies and audit events. The API derives the tenant from the authenticated account; clients cannot switch tenants by submitting another institution ID.
+
+### Institution onboarding
+
+1. Bootstrap the first platform operator from the backend directory:
+   `python scripts/create_platform_admin.py`
+   The script prompts for the email, name and password and creates a `platform_admin` account. Keep this account restricted to FixIt platform operations.
+2. Sign in to the **Platform Operations** dashboard at `/platform/institutions` and create an institution workspace. The equivalent API is `POST /api/institutions` with a name, unique slug and approved email domains. Example:
+   ```json
+   {
+     "name": "Example College",
+     "slug": "example-college",
+     "email_domains": ["example.edu"]
+   }
+   ```
+3. From the same dashboard, invite its first college administrator using their name and official college email. FixIt sends a single-use invitation link that expires after 48 hours; the recipient sets their own password. No temporary password is created or shared. Platform Operations can suspend/reactivate workspaces; suspended institutions are blocked from login and API access.
+4. The first invited administrator becomes the **Primary College Admin**. They configure campuses, buildings, blocks, floors, rooms, hostels and other locations, manage support staff, and control administrator governance from `/admin/administrators`. The Primary Admin can invite additional administrators directly, review requests, reject requests, deactivate/reactivate College Admins, and transfer primary ownership. Every action is scoped to the same institution and recorded in the audit log.
+5. Other **College Admins** can manage normal college operations but cannot directly appoint or deactivate another administrator. They submit an administrator request from `/admin/administrators`; only the Primary College Admin can approve it. Approval sends a single-use 48-hour email invitation, and the recipient sets their own password. College Admins cannot create or promote platform administrators.
+6. Students and faculty self-register at /register by selecting their college, entering their institutional email, identity details and password, then verifying a six-digit code delivered to that email. The API checks that the email domain is one of the institution's approved domains and creates the account only after successful verification. Students and faculty do not need the administrator to create accounts individually.
+7. Configure the institution's exact email domains during workspace creation (for example, students.example.edu and example.edu if both are genuinely used). The public institution list supplies the college selector. Personal email domains are rejected. Verification codes expire after 10 minutes, have a 60-second resend cooldown and a five-attempt limit.
+8. Production email verification requires PUBLIC_REGISTRATION_ENABLED=true, APP_BASE_URL, SMTP_HOST, SMTP_FROM_EMAIL (or SMTP_USERNAME), and valid SMTP credentials. The production frontend build must use VITE_PUBLIC_REGISTRATION_ENABLED=true. The supplied production Compose file enables the registration page.
+9. Staff accounts remain administrator-provisioned; the public form accepts only student and faculty roles. The first Primary College Admin is invited by the platform administrator. College email OTP proves control of an approved mailbox, not independently a person's current enrollment or job title. For stronger role assurance, use institution-issued role-specific email domains or an authoritative student/faculty directory and approval process.
+
+### Tenant migration
+
+On startup, legacy records without an `institution_id` are assigned to `INST-DEFAULT` and preserved. New records are written with the authenticated user's institution. Existing deployments should take a database backup before upgrading and verify the default workspace's ownership before inviting another college.
+
+The platform administrator role is separate from college administrator access. College administrators cannot create or promote platform administrators. The bootstrap script is intended for the first platform operator only.

@@ -1,0 +1,110 @@
+[
+  {
+    "_id": "SLA-C5733B6F",
+    "priority": "critical",
+    "target_resolution_hours": 2,
+    "target_response_hours": 1,
+    "description": "Campus-wide outages, server failures, smart classroom during ongoing lecture",
+    "updated_at": "2026-11-18T06:37:51.226093+00:00",
+    "institution_id": "INST-DED5210A71"
+  },
+  {
+    "_id": "SLA-F808EBEF",
+    "priority": "high",
+    "target_resolution_hours": 8,
+    "target_response_hours": 2,
+    "description": "Lab equipment for scheduled classes, Wi-Fi outage in entire floor/wing",
+    "updated_at": "2026-11-18T06:37:51.226093+00:00",
+    "institution_id": "INST-DED5210A71"
+  },
+  {
+    "_id": "SLA-66CEFAA8",
+    "priority": "low",
+    "target_resolution_hours": 72,
+    "target_response_hours": 8,
+    "description": "Routine software requests, general inquiries, minor glitches",
+    "updated_at": "2026-11-18T06:37:51.226093+00:00",
+    "institution_id": "INST-DED5210A71"
+  },
+  {
+    "_id": "SLA-7488673D",
+    "priority": "medium",
+    "target_resolution_hours": 24,
+    "target_response_hours": 4,
+    "description": "Individual workstation issues, departmental printer failures",
+    "updated_at": "2026-11-18T06:37:51.226093+00:00",
+    "institution_id": "INST-DED5210A71"
+  },
+  {
+    "_id": "SLA-CAC46E3E",
+    "priority": "critical",
+    "target_resolution_hours": 2,
+    "target_response_hours": 1,
+    "description": "Campus-wide outages, server failures, smart classroom during ongoing lecture",
+    "updated_at": "2026-11-18T06:37:51.226093+00:00",
+    "institution_id": "INST-8640FAC778"
+  },
+  {
+    "_id": "SLA-A31F21E9",
+    "priority": "high",
+    "target_resolution_hours": 8,
+    "target_response_hours": 2,
+    "description": "Lab equipment for scheduled classes, Wi-Fi outage in entire floor/wing",
+    "updated_at": "2026-11-18T06:37:51.226093+00:00",
+    "institution_id": "INST-8640FAC778"
+  },
+  {
+    "_id": "SLA-C15244BD",
+    "priority": "low",
+    "target_resolution_hours": 72,
+    "target_response_hours": 8,
+    "description": "Routine software requests, general inquiries, minor glitches",
+    "updated_at": "2026-11-18T06:37:51.226093+00:00",
+    "institution_id": "INST-8640FAC778"
+  },
+  {
+    "_id": "SLA-6C7FA917",
+    "priority": "medium",
+    "target_resolution_hours": 24,
+    "target_response_hours": 4,
+    "description": "Individual workstation issues, departmental printer failures",
+    "updated_at": "2026-11-18T06:37:51.226093+00:00",
+    "institution_id": "INST-8640FAC778"
+  },
+  {
+    "_id": "SLA-62CCE61C",
+    "priority": "critical",
+    "target_resolution_hours": 2,
+    "target_response_hours": 1,
+    "description": "Emergency / campus hazard / critical outages",
+    "updated_at": "2026-11-19T11:39:24.270092+00:00",
+    "institution_id": "INST-NIE"
+  },
+  {
+    "_id": "SLA-B8162C1B",
+    "priority": "high",
+    "target_resolution_hours": 8,
+    "target_response_hours": 2,
+    "description": "Academic disruptions / scheduled class impact",
+    "updated_at": "2026-11-19T11:39:24.270092+00:00",
+    "institution_id": "INST-NIE"
+  },
+  {
+    "_id": "SLA-0AF933F5",
+    "priority": "low",
+    "target_resolution_hours": 72,
+    "target_response_hours": 8,
+    "description": "Routine maintenance & cosmetic requests",
+    "updated_at": "2026-11-19T11:39:24.270092+00:00",
+    "institution_id": "INST-NIE"
+  },
+  {
+    "_id": "SLA-BA070E4A",
+    "priority": "medium",
+    "target_resolution_hours": 24,
+    "target_response_hours": 4,
+    "description": "Standard facility & workstation issues",
+    "updated_at": "2026-11-19T11:39:24.270092+00:00",
+    "institution_id": "INST-NIE"
+  }
+]

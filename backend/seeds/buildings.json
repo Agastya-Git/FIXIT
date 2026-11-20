@@ -1,0 +1,86 @@
+[
+  {
+    "_id": "BLD-ADM",
+    "campus_id": "CAMPUS-MAIN",
+    "name": "Administrative Building",
+    "code": "ADM",
+    "total_floors": 2,
+    "is_active": true,
+    "order": 1,
+    "institution_id": "INST-DEFAULT"
+  },
+  {
+    "_id": "BLD-ENG",
+    "campus_id": "CAMPUS-MAIN",
+    "name": "Engineering Block",
+    "code": "ENG",
+    "total_floors": 4,
+    "is_active": true,
+    "order": 2,
+    "institution_id": "INST-DEFAULT"
+  },
+  {
+    "_id": "BLD-SCI",
+    "campus_id": "CAMPUS-MAIN",
+    "name": "Science & Research Complex",
+    "code": "SCI",
+    "total_floors": 5,
+    "is_active": true,
+    "order": 3,
+    "institution_id": "INST-DEFAULT"
+  },
+  {
+    "_id": "BLD-LIB",
+    "campus_id": "CAMPUS-MAIN",
+    "name": "Central Library",
+    "code": "LIB",
+    "total_floors": 3,
+    "is_active": true,
+    "order": 4,
+    "institution_id": "INST-DEFAULT"
+  },
+  {
+    "_id": "BLD-NIE-ACB",
+    "campus_id": "CAMPUS-NIE-MAIN",
+    "code": "ACB",
+    "created_at": "2026-11-18T20:05:23.914528+00:00",
+    "institution_id": "INST-NIE",
+    "is_active": true,
+    "name": "Academic Block",
+    "order": 1,
+    "total_floors": 4
+  },
+  {
+    "_id": "BLD-NIE-ADM",
+    "campus_id": "CAMPUS-NIE-MAIN",
+    "code": "ADM",
+    "created_at": "2026-11-18T20:05:23.914528+00:00",
+    "institution_id": "INST-NIE",
+    "is_active": true,
+    "name": "Administrative Block",
+    "order": 2,
+    "total_floors": 2
+  },
+  {
+    "_id": "BLD-NIE-LIB",
+    "campus_id": "CAMPUS-NIE-MAIN",
+    "code": "LIB",
+    "created_at": "2026-11-18T20:05:23.914528+00:00",
+    "institution_id": "INST-NIE",
+    "is_active": true,
+    "name": "Library Block",
+    "order": 3,
+    "total_floors": 3
+  },
+  {
+    "_id": "BLD-NIE-CSE",
+    "campus_id": "CAMPUS-NIE-MAIN",
+    "code": "CSE",
+    "created_at": "2026-11-18T20:05:23.914528+00:00",
+    "institution_id": "INST-NIE",
+    "is_active": true,
+    "name": "Computer Science Block",
+    "order": 4,
+    "total_floors": 4
+  }
+]

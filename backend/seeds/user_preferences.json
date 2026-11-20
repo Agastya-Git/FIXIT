@@ -1,0 +1,24 @@
+[
+  {
+    "_id": {
+      "$oid": "6afd4bea82dcb7871dd3fe1f"
+    },
+    "institution_id": "INST-DEFAULT",
+    "user_id": "USR-ADMIN-001",
+    "email_notifications": true,
+    "in_app_notifications": true,
+    "language": "en",
+    "updated_at": "2026-11-18T06:55:45.364267+00:00"
+  },
+  {
+    "_id": {
+      "$oid": "6aff465c82dcb7871dd3fe21"
+    },
+    "institution_id": "INST-NIE",
+    "user_id": "USR-B519FABB69",
+    "email_notifications": true,
+    "in_app_notifications": true,
+    "language": "en",
+    "updated_at": "2026-11-19T18:56:35.664529+00:00"
+  }
+]

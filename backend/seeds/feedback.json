@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "FDB-SEED-001",
+    "ticket_id": "FIXIT-2026-0002",
+    "ticket_custom_id": "FIXIT-2026-0002",
+    "ticket_db_id": "TCK-SEED-002",
+    "rating": 5,
+    "comments": "The IT team fixed the library Wi-Fi very quickly! Speeds are consistent now. Great job!",
+    "created_by": {
+      "id": "USR-STUDENT-001",
+      "name": "Rahul Verma",
+      "email": "rahul.student@college.edu",
+      "role": "student"
+    },
+    "created_at": "2026-11-18T02:37:51.226093+00:00",
+    "institution_id": "INST-DEFAULT"
+  }
+]

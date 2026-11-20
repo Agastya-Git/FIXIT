@@ -1,0 +1,258 @@
+[
+  {
+    "_id": "FLR-ADM-0",
+    "building_id": "BLD-ADM",
+    "floor_number": 0,
+    "floor_name": "Ground Floor",
+    "order": 0,
+    "is_active": true,
+    "institution_id": "INST-DEFAULT"
+  },
+  {
+    "_id": "FLR-ADM-1",
+    "building_id": "BLD-ADM",
+    "floor_number": 1,
+    "floor_name": "1st Floor",
+    "order": 1,
+    "is_active": true,
+    "institution_id": "INST-DEFAULT"
+  },
+  {
+    "_id": "FLR-ENG-0",
+    "building_id": "BLD-ENG",
+    "floor_number": 0,
+    "floor_name": "Ground Floor",
+    "order": 0,
+    "is_active": true,
+    "institution_id": "INST-DEFAULT"
+  },
+  {
+    "_id": "FLR-ENG-1",
+    "building_id": "BLD-ENG",
+    "floor_number": 1,
+    "floor_name": "1st Floor",
+    "order": 1,
+    "is_active": true,
+    "institution_id": "INST-DEFAULT"
+  },
+  {
+    "_id": "FLR-ENG-2",
+    "building_id": "BLD-ENG",
+    "floor_number": 2,
+    "floor_name": "2nd Floor",
+    "order": 2,
+    "is_active": true,
+    "institution_id": "INST-DEFAULT"
+  },
+  {
+    "_id": "FLR-ENG-3",
+    "building_id": "BLD-ENG",
+    "floor_number": 3,
+    "floor_name": "3rd Floor",
+    "order": 3,
+    "is_active": true,
+    "institution_id": "INST-DEFAULT"
+  },
+  {
+    "_id": "FLR-SCI-0",
+    "building_id": "BLD-SCI",
+    "floor_number": 0,
+    "floor_name": "Ground Floor",
+    "order": 0,
+    "is_active": true,
+    "institution_id": "INST-DEFAULT"
+  },
+  {
+    "_id": "FLR-SCI-1",
+    "building_id": "BLD-SCI",
+    "floor_number": 1,
+    "floor_name": "1st Floor",
+    "order": 1,
+    "is_active": true,
+    "institution_id": "INST-DEFAULT"
+  },
+  {
+    "_id": "FLR-SCI-2",
+    "building_id": "BLD-SCI",
+    "floor_number": 2,
+    "floor_name": "2nd Floor",
+    "order": 2,
+    "is_active": true,
+    "institution_id": "INST-DEFAULT"
+  },
+  {
+    "_id": "FLR-SCI-3",
+    "building_id": "BLD-SCI",
+    "floor_number": 3,
+    "floor_name": "3rd Floor",
+    "order": 3,
+    "is_active": true,
+    "institution_id": "INST-DEFAULT"
+  },
+  {
+    "_id": "FLR-SCI-4",
+    "building_id": "BLD-SCI",
+    "floor_number": 4,
+    "floor_name": "4th Floor",
+    "order": 4,
+    "is_active": true,
+    "institution_id": "INST-DEFAULT"
+  },
+  {
+    "_id": "FLR-LIB-0",
+    "building_id": "BLD-LIB",
+    "floor_number": 0,
+    "floor_name": "Ground Floor",
+    "order": 0,
+    "is_active": true,
+    "institution_id": "INST-DEFAULT"
+  },
+  {
+    "_id": "FLR-LIB-1",
+    "building_id": "BLD-LIB",
+    "floor_number": 1,
+    "floor_name": "1st Floor",
+    "order": 1,
+    "is_active": true,
+    "institution_id": "INST-DEFAULT"
+  },
+  {
+    "_id": "FLR-LIB-2",
+    "building_id": "BLD-LIB",
+    "floor_number": 2,
+    "floor_name": "2nd Floor",
+    "order": 2,
+    "is_active": true,
+    "institution_id": "INST-DEFAULT"
+  },
+  {
+    "_id": "FLR-NIE-ACB-0",
+    "building_id": "BLD-NIE-ACB",
+    "created_at": "2026-11-18T20:05:23.914528+00:00",
+    "floor_name": "Ground Floor",
+    "floor_number": 0,
+    "institution_id": "INST-NIE",
+    "is_active": true,
+    "order": 0
+  },
+  {
+    "_id": "FLR-NIE-ACB-1",
+    "building_id": "BLD-NIE-ACB",
+    "created_at": "2026-11-18T20:05:23.914528+00:00",
+    "floor_name": "First Floor",
+    "floor_number": 1,
+    "institution_id": "INST-NIE",
+    "is_active": true,
+    "order": 1
+  },
+  {
+    "_id": "FLR-NIE-ACB-2",
+    "building_id": "BLD-NIE-ACB",
+    "created_at": "2026-11-18T20:05:23.914528+00:00",
+    "floor_name": "Second Floor",
+    "floor_number": 2,
+    "institution_id": "INST-NIE",
+    "is_active": true,
+    "order": 2
+  },
+  {
+    "_id": "FLR-NIE-ACB-3",
+    "building_id": "BLD-NIE-ACB",
+    "created_at": "2026-11-18T20:05:23.914528+00:00",
+    "floor_name": "Third Floor",
+    "floor_number": 3,
+    "institution_id": "INST-NIE",
+    "is_active": true,
+    "order": 3
+  },
+  {
+    "_id": "FLR-NIE-ADM-0",
+    "building_id": "BLD-NIE-ADM",
+    "institution_id": "INST-NIE",
+    "floor_number": 0,
+    "floor_name": "Ground Floor",
+    "order": 0,
+    "is_active": true,
+    "created_at": "2026-11-19T11:39:24.270092+00:00"
+  },
+  {
+    "_id": "FLR-NIE-ADM-1",
+    "building_id": "BLD-NIE-ADM",
+    "institution_id": "INST-NIE",
+    "floor_number": 1,
+    "floor_name": "First Floor",
+    "order": 1,
+    "is_active": true,
+    "created_at": "2026-11-19T11:39:24.270092+00:00"
+  },
+  {
+    "_id": "FLR-NIE-LIB-0",
+    "building_id": "BLD-NIE-LIB",
+    "institution_id": "INST-NIE",
+    "floor_number": 0,
+    "floor_name": "Ground Floor",
+    "order": 0,
+    "is_active": true,
+    "created_at": "2026-11-19T11:39:24.270092+00:00"
+  },
+  {
+    "_id": "FLR-NIE-LIB-1",
+    "building_id": "BLD-NIE-LIB",
+    "institution_id": "INST-NIE",
+    "floor_number": 1,
+    "floor_name": "First Floor",
+    "order": 1,
+    "is_active": true,
+    "created_at": "2026-11-19T11:39:24.270092+00:00"
+  },
+  {
+    "_id": "FLR-NIE-LIB-2",
+    "building_id": "BLD-NIE-LIB",
+    "institution_id": "INST-NIE",
+    "floor_number": 2,
+    "floor_name": "Second Floor",
+    "order": 2,
+    "is_active": true,
+    "created_at": "2026-11-19T11:39:24.270092+00:00"
+  },
+  {
+    "_id": "FLR-NIE-CSE-0",
+    "building_id": "BLD-NIE-CSE",
+    "institution_id": "INST-NIE",
+    "floor_number": 0,
+    "floor_name": "Ground Floor",
+    "order": 0,
+    "is_active": true,
+    "created_at": "2026-11-19T11:39:24.270092+00:00"
+  },
+  {
+    "_id": "FLR-NIE-CSE-1",
+    "building_id": "BLD-NIE-CSE",
+    "institution_id": "INST-NIE",
+    "floor_number": 1,
+    "floor_name": "First Floor",
+    "order": 1,
+    "is_active": true,
+    "created_at": "2026-11-19T11:39:24.270092+00:00"
+  },
+  {
+    "_id": "FLR-NIE-CSE-2",
+    "building_id": "BLD-NIE-CSE",
+    "institution_id": "INST-NIE",
+    "floor_number": 2,
+    "floor_name": "Second Floor",
+    "order": 2,
+    "is_active": true,
+    "created_at": "2026-11-19T11:39:24.270092+00:00"
+  },
+  {
+    "_id": "FLR-NIE-CSE-3",
+    "building_id": "BLD-NIE-CSE",
+    "institution_id": "INST-NIE",
+    "floor_number": 3,
+    "floor_name": "Third Floor",
+    "order": 3,
+    "is_active": true,
+    "created_at": "2026-11-19T11:39:24.270092+00:00"
+  }
+]

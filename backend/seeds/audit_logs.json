@@ -1,0 +1,1119 @@
+[
+  {
+    "_id": "AUD-80CEB01E634A",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-PLATFORM-TEST01",
+    "institution_id": "INST-PLATFORM",
+    "actor": {
+      "user_id": "USR-PLATFORM-TEST01",
+      "name": "Platform Admin Test",
+      "email": "platform.admin@fixitplatform.org",
+      "role": "platform_admin"
+    },
+    "details": {
+      "login_time": "2026-11-18T18:46:18.349865+00:00"
+    },
+    "timestamp": "2026-11-18T18:46:18.349926+00:00"
+  },
+  {
+    "_id": "AUD-3F0BD794784A",
+    "action": "INSTITUTION_CREATED",
+    "resource_type": "institution",
+    "resource_id": "INST-DED5210A71",
+    "institution_id": "INST-PLATFORM",
+    "actor": {
+      "user_id": "USR-PLATFORM-TEST01",
+      "name": "Platform Admin Test",
+      "email": "platform.admin@fixitplatform.org",
+      "role": "platform_admin"
+    },
+    "details": {
+      "name": "Test University",
+      "slug": "test-univ"
+    },
+    "timestamp": "2026-11-18T18:46:18.512560+00:00"
+  },
+  {
+    "_id": "AUD-17A90AEC4C66",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-PLATFORM-D24CDFD6B5",
+    "institution_id": "INST-PLATFORM",
+    "actor": {
+      "user_id": "USR-PLATFORM-D24CDFD6B5",
+      "name": "Platform Administrator",
+      "email": "platform.admin@fixit.org",
+      "role": "platform_admin"
+    },
+    "details": {
+      "login_time": "2026-11-18T19:33:13.400614+00:00"
+    },
+    "timestamp": "2026-11-18T19:33:13.400642+00:00"
+  },
+  {
+    "_id": "AUD-E8EEF9395CAC",
+    "action": "INSTITUTION_CREATED",
+    "resource_type": "institution",
+    "resource_id": "INST-8640FAC778",
+    "institution_id": "INST-PLATFORM",
+    "actor": {
+      "user_id": "USR-PLATFORM-D24CDFD6B5",
+      "name": "Platform Administrator",
+      "email": "platform.admin@fixit.org",
+      "role": "platform_admin"
+    },
+    "details": {
+      "name": "Demo Engineering College",
+      "slug": "demo-eng-college"
+    },
+    "timestamp": "2026-11-18T19:33:13.459988+00:00"
+  },
+  {
+    "_id": "AUD-0A801CAF7AB8",
+    "action": "INSTITUTION_ADMIN_INVITED",
+    "resource_type": "institution",
+    "resource_id": "INST-8640FAC778",
+    "institution_id": "INST-8640FAC778",
+    "actor": {
+      "user_id": "USR-PLATFORM-D24CDFD6B5",
+      "name": "Platform Administrator",
+      "email": "platform.admin@fixit.org",
+      "role": "platform_admin"
+    },
+    "details": {
+      "email": "dean@demo.edu",
+      "invitation_id": "INV-DDA891378A0F",
+      "admin_level": "primary"
+    },
+    "timestamp": "2026-11-18T19:33:13.471003+00:00"
+  },
+  {
+    "_id": "AUD-EA20DA45E362",
+    "action": "INSTITUTION_ADMIN_INVITATION_ACCEPTED",
+    "resource_type": "user",
+    "resource_id": "USR-FADADF47B2",
+    "institution_id": "INST-8640FAC778",
+    "actor": {
+      "user_id": "USR-FADADF47B2",
+      "name": "College Dean",
+      "email": "dean@demo.edu",
+      "role": "admin"
+    },
+    "details": {
+      "institution_id": "INST-8640FAC778",
+      "admin_level": "primary"
+    },
+    "timestamp": "2026-11-18T19:33:13.530291+00:00"
+  },
+  {
+    "_id": "AUD-E8D757BF14B4",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-FADADF47B2",
+    "institution_id": "INST-8640FAC778",
+    "actor": {
+      "user_id": "USR-FADADF47B2",
+      "name": "College Dean",
+      "email": "dean@demo.edu",
+      "role": "admin"
+    },
+    "details": {
+      "login_time": "2026-11-18T19:33:13.590538+00:00"
+    },
+    "timestamp": "2026-11-18T19:33:13.590567+00:00"
+  },
+  {
+    "_id": "AUD-D3F5E019AD9C",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "login_time": "2026-11-18T20:05:50.767193+00:00"
+    },
+    "timestamp": "2026-11-18T20:05:50.767252+00:00"
+  },
+  {
+    "_id": "AUD-49B368F333F3",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "login_time": "2026-11-18T20:06:07.026356+00:00"
+    },
+    "timestamp": "2026-11-18T20:06:07.026423+00:00"
+  },
+  {
+    "_id": "AUD-D9D1F8164025",
+    "action": "LOCATION_CREATED",
+    "resource_type": "campus_location",
+    "resource_id": "LOC-572A777C",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "name": "Campus Canteen",
+      "category": "cafeteria",
+      "campus_id": "CAMPUS-NIE-MAIN"
+    },
+    "timestamp": "2026-11-18T20:06:07.086103+00:00"
+  },
+  {
+    "_id": "AUD-625F64B8999F",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "login_time": "2026-11-18T20:10:12.906105+00:00"
+    },
+    "timestamp": "2026-11-18T20:10:12.906147+00:00"
+  },
+  {
+    "_id": "AUD-6D8366B701FF",
+    "action": "USER_LOGOUT",
+    "resource_type": "user",
+    "resource_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "status": "success"
+    },
+    "timestamp": "2026-11-18T20:10:47.241415+00:00"
+  },
+  {
+    "_id": "AUD-1A3D56346A1A",
+    "action": "USER_REGISTERED_EMAIL_VERIFIED",
+    "resource_type": "user",
+    "resource_id": "USR-74D54FAA56",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-74D54FAA56",
+      "name": "Aarav Patel",
+      "email": "aarav.student@students.nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "institution_id": "INST-NIE",
+      "verification_method": "institution_email_otp",
+      "membership_status": "email_verified"
+    },
+    "timestamp": "2026-11-18T20:17:10.109713+00:00"
+  },
+  {
+    "_id": "AUD-1E8AA39E2D1A",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-74D54FAA56",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-74D54FAA56",
+      "name": "Aarav Patel",
+      "email": "aarav.student@students.nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "login_time": "2026-11-18T20:17:10.218715+00:00"
+    },
+    "timestamp": "2026-11-18T20:17:10.218767+00:00"
+  },
+  {
+    "_id": "AUD-549F0ADF8709",
+    "action": "USER_REGISTERED_EMAIL_VERIFIED",
+    "resource_type": "user",
+    "resource_id": "USR-2A5CD60EDF",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-2A5CD60EDF",
+      "name": "Dr. Meera Rao",
+      "email": "meera.rao@faculty.nie.ac.in",
+      "role": "faculty"
+    },
+    "details": {
+      "institution_id": "INST-NIE",
+      "verification_method": "institution_email_otp",
+      "membership_status": "email_verified"
+    },
+    "timestamp": "2026-11-18T20:17:10.326473+00:00"
+  },
+  {
+    "_id": "AUD-4F012384E44C",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-2A5CD60EDF",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-2A5CD60EDF",
+      "name": "Dr. Meera Rao",
+      "email": "meera.rao@faculty.nie.ac.in",
+      "role": "faculty"
+    },
+    "details": {
+      "login_time": "2026-11-18T20:17:10.428596+00:00"
+    },
+    "timestamp": "2026-11-18T20:17:10.428632+00:00"
+  },
+  {
+    "_id": "AUD-508BDC7BB380",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-74D54FAA56",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-74D54FAA56",
+      "name": "Aarav Patel",
+      "email": "aarav.student@students.nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "login_time": "2026-11-18T20:17:10.607958+00:00"
+    },
+    "timestamp": "2026-11-18T20:17:10.607988+00:00"
+  },
+  {
+    "_id": "AUD-F87F6C403B09",
+    "action": "USER_REGISTERED_EMAIL_VERIFIED",
+    "resource_type": "user",
+    "resource_id": "USR-494B744E3F",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-494B744E3F",
+      "name": "Agastya Shetty",
+      "email": "2025cs_agastyashetty_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "institution_id": "INST-NIE",
+      "verification_method": "institution_email_otp",
+      "membership_status": "email_verified"
+    },
+    "timestamp": "2026-11-18T21:25:16.594239+00:00"
+  },
+  {
+    "_id": "AUD-23165B6ECA94",
+    "action": "USER_LOGOUT",
+    "resource_type": "user",
+    "resource_id": "USR-494B744E3F",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-494B744E3F",
+      "name": "Agastya Shetty",
+      "email": "2025cs_agastyashetty_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "status": "success"
+    },
+    "timestamp": "2026-11-18T21:25:43.451942+00:00"
+  },
+  {
+    "_id": "AUD-B06AFBC2F21E",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-494B744E3F",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-494B744E3F",
+      "name": "Agastya Shetty",
+      "email": "2025cs_agastyashetty_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "login_time": "2026-11-18T21:26:34.011470+00:00"
+    },
+    "timestamp": "2026-11-18T21:26:34.011506+00:00"
+  },
+  {
+    "_id": "AUD-B35C7FCFA345",
+    "action": "USER_LOGOUT",
+    "resource_type": "user",
+    "resource_id": "USR-494B744E3F",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-494B744E3F",
+      "name": "Agastya Shetty",
+      "email": "2025cs_agastyashetty_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "status": "success"
+    },
+    "timestamp": "2026-11-18T21:26:37.082896+00:00"
+  },
+  {
+    "_id": "AUD-8075954176AD",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-494B744E3F",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-494B744E3F",
+      "name": "Agastya Shetty",
+      "email": "2025cs_agastyashetty_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "login_time": "2026-11-18T21:53:15.052441+00:00"
+    },
+    "timestamp": "2026-11-18T21:53:15.052473+00:00"
+  },
+  {
+    "_id": "AUD-CC9B9E24ED5C",
+    "action": "USER_LOGOUT",
+    "resource_type": "user",
+    "resource_id": "USR-494B744E3F",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-494B744E3F",
+      "name": "Agastya Shetty",
+      "email": "2025cs_agastyashetty_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "status": "success"
+    },
+    "timestamp": "2026-11-18T22:20:31.593414+00:00"
+  },
+  {
+    "_id": "AUD-ECD6225BBA01",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "login_time": "2026-11-18T22:24:08.828397+00:00"
+    },
+    "timestamp": "2026-11-18T22:24:08.828444+00:00"
+  },
+  {
+    "_id": "AUD-6796E1D50B5C",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-494B744E3F",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-494B744E3F",
+      "name": "Agastya Shetty",
+      "email": "2025cs_agastyashetty_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "login_time": "2026-11-18T22:50:16.953649+00:00"
+    },
+    "timestamp": "2026-11-18T22:50:16.953687+00:00"
+  },
+  {
+    "_id": "AUD-5B981554D769",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-494B744E3F",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-494B744E3F",
+      "name": "Agastya Shetty",
+      "email": "2025cs_agastyashetty_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "login_time": "2026-11-18T23:08:52.797109+00:00"
+    },
+    "timestamp": "2026-11-18T23:08:52.797141+00:00"
+  },
+  {
+    "_id": "AUD-1AA252F39A0F",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-494B744E3F",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-494B744E3F",
+      "name": "Agastya Shetty",
+      "email": "2025cs_agastyashetty_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "login_time": "2026-11-19T03:48:45.379496+00:00"
+    },
+    "timestamp": "2026-11-19T03:48:45.379548+00:00"
+  },
+  {
+    "_id": "AUD-4F5B6E4AC44C",
+    "action": "USER_REGISTERED_EMAIL_VERIFIED",
+    "resource_type": "user",
+    "resource_id": "USR-B519FABB69",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-B519FABB69",
+      "name": "Aditya Kumar",
+      "email": "2025cs_adityakumar_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "institution_id": "INST-NIE",
+      "verification_method": "institution_email_otp",
+      "membership_status": "email_verified"
+    },
+    "timestamp": "2026-11-19T03:55:40.391680+00:00"
+  },
+  {
+    "_id": "AUD-314E9C422AAF",
+    "action": "USER_LOGOUT",
+    "resource_type": "user",
+    "resource_id": "USR-B519FABB69",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-B519FABB69",
+      "name": "Aditya Kumar",
+      "email": "2025cs_adityakumar_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "status": "success"
+    },
+    "timestamp": "2026-11-19T03:55:44.999865+00:00"
+  },
+  {
+    "_id": "AUD-2CA2145BAB8A",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-B519FABB69",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-B519FABB69",
+      "name": "Aditya Kumar",
+      "email": "2025cs_adityakumar_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "login_time": "2026-11-19T03:56:03.992334+00:00"
+    },
+    "timestamp": "2026-11-19T03:56:03.992366+00:00"
+  },
+  {
+    "_id": "AUD-6F14AE667366",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "login_time": "2026-11-19T04:04:25.916530+00:00"
+    },
+    "timestamp": "2026-11-19T04:04:25.916566+00:00"
+  },
+  {
+    "_id": "AUD-97BF159CE8B5",
+    "action": "USER_LOGOUT",
+    "resource_type": "user",
+    "resource_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "status": "success"
+    },
+    "timestamp": "2026-11-19T04:15:24.613812+00:00"
+  },
+  {
+    "_id": "AUD-C2811ED6A3E8",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "login_time": "2026-11-19T04:16:28.834734+00:00"
+    },
+    "timestamp": "2026-11-19T04:16:28.834780+00:00"
+  },
+  {
+    "_id": "AUD-2491854BBC13",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "login_time": "2026-11-19T04:17:22.941369+00:00"
+    },
+    "timestamp": "2026-11-19T04:17:22.941415+00:00"
+  },
+  {
+    "_id": "AUD-D90D44120597",
+    "action": "USER_CREATED_BY_ADMIN",
+    "resource_type": "user",
+    "resource_id": "USR-AFA616DE69",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "name": "Ankan Gosh",
+      "role": "staff",
+      "email": "2025cs_ankanghosh_a@nie.ac.in"
+    },
+    "timestamp": "2026-11-19T04:19:00.447685+00:00"
+  },
+  {
+    "_id": "AUD-DA5CC5DBEF90",
+    "action": "USER_CREATED_BY_ADMIN",
+    "resource_type": "user",
+    "resource_id": "USR-68216D7A1E",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "name": "Anurag Singh",
+      "role": "staff",
+      "email": "2025cs_anuragsingh_a@nie.ac.in"
+    },
+    "timestamp": "2026-11-19T04:21:04.941361+00:00"
+  },
+  {
+    "_id": "AUD-2DB92FEE373F",
+    "action": "USER_REGISTERED_EMAIL_VERIFIED",
+    "resource_type": "user",
+    "resource_id": "USR-11DDDDF645",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-11DDDDF645",
+      "name": "Adarsh Maurya",
+      "email": "2025cs_adarshmaurya_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "institution_id": "INST-NIE",
+      "verification_method": "institution_email_otp",
+      "membership_status": "email_verified"
+    },
+    "timestamp": "2026-11-19T06:06:50.620783+00:00"
+  },
+  {
+    "_id": "AUD-94D595BD820F",
+    "action": "USER_LOGOUT",
+    "resource_type": "user",
+    "resource_id": "USR-11DDDDF645",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-11DDDDF645",
+      "name": "Adarsh Maurya",
+      "email": "2025cs_adarshmaurya_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "status": "success"
+    },
+    "timestamp": "2026-11-19T06:06:57.270242+00:00"
+  },
+  {
+    "_id": "AUD-4C393E35563A",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-11DDDDF645",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-11DDDDF645",
+      "name": "Adarsh Maurya",
+      "email": "2025cs_adarshmaurya_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "login_time": "2026-11-19T06:07:18.382040+00:00"
+    },
+    "timestamp": "2026-11-19T06:07:18.382073+00:00"
+  },
+  {
+    "_id": "AUD-D6615D3107BD",
+    "action": "USER_LOGOUT",
+    "resource_type": "user",
+    "resource_id": "USR-11DDDDF645",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-11DDDDF645",
+      "name": "Adarsh Maurya",
+      "email": "2025cs_adarshmaurya_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "status": "success"
+    },
+    "timestamp": "2026-11-19T06:14:32.086436+00:00"
+  },
+  {
+    "_id": "AUD-30A1875CFAD4",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "login_time": "2026-11-19T06:14:42.989391+00:00"
+    },
+    "timestamp": "2026-11-19T06:14:42.989416+00:00"
+  },
+  {
+    "_id": "AUD-B8E8FF25B9BA",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-494B744E3F",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-494B744E3F",
+      "name": "Agastya Shetty",
+      "email": "2025cs_agastyashetty_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "login_time": "2026-11-19T10:46:22.603479+00:00"
+    },
+    "timestamp": "2026-11-19T10:46:22.603523+00:00"
+  },
+  {
+    "_id": "AUD-D1C8E99FC061",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-494B744E3F",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-494B744E3F",
+      "name": "Agastya Shetty",
+      "email": "2025cs_agastyashetty_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "login_time": "2026-11-19T10:50:50.043094+00:00"
+    },
+    "timestamp": "2026-11-19T10:50:50.043139+00:00"
+  },
+  {
+    "_id": "AUD-1EF92082EAF9",
+    "action": "USER_LOGOUT",
+    "resource_type": "user",
+    "resource_id": "USR-494B744E3F",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-494B744E3F",
+      "name": "Agastya Shetty",
+      "email": "2025cs_agastyashetty_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "status": "success"
+    },
+    "timestamp": "2026-11-19T10:53:23.022781+00:00"
+  },
+  {
+    "_id": "AUD-133958D9CA3D",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-494B744E3F",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-494B744E3F",
+      "name": "Agastya Shetty",
+      "email": "2025cs_agastyashetty_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "login_time": "2026-11-19T11:15:15.088226+00:00"
+    },
+    "timestamp": "2026-11-19T11:15:15.088282+00:00"
+  },
+  {
+    "_id": "AUD-B048D047ADC1",
+    "action": "TICKET_CREATED",
+    "resource_type": "ticket",
+    "resource_id": "FIXIT-2026-0001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-494B744E3F",
+      "name": "Agastya Shetty",
+      "email": "2025cs_agastyashetty_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "title": "Main UPS tripped and power sockets dead across Lab 1",
+      "priority": "critical",
+      "category": "Network Switches, Routers & Firewalls"
+    },
+    "timestamp": "2026-11-19T11:18:55.683748+00:00"
+  },
+  {
+    "_id": "AUD-FC2729C895DA",
+    "action": "TICKET_CREATED",
+    "resource_type": "ticket",
+    "resource_id": "FIXIT-2026-0002",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-494B744E3F",
+      "name": "Agastya Shetty",
+      "email": "2025cs_agastyashetty_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "title": "Classroom wooden bench armrest loose and needs tightening",
+      "priority": "medium",
+      "category": "Student Benches, Desks & Classroom Seating"
+    },
+    "timestamp": "2026-11-19T11:28:03.396094+00:00"
+  },
+  {
+    "_id": "AUD-2FCB27C8DCFE",
+    "action": "TICKET_CREATED",
+    "resource_type": "ticket",
+    "resource_id": "FIXIT-2026-0003",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-494B744E3F",
+      "name": "Agastya Shetty",
+      "email": "2025cs_agastyashetty_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "title": "Personal locker lock broken and belongings vulnerable",
+      "priority": "high",
+      "category": "Student Benches, Desks & Classroom Seating"
+    },
+    "timestamp": "2026-11-19T11:32:43.285435+00:00"
+  },
+  {
+    "_id": "AUD-AC6A7937760C",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-494B744E3F",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-494B744E3F",
+      "name": "Agastya Shetty",
+      "email": "2025cs_agastyashetty_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "login_time": "2026-11-19T15:54:17.175305+00:00"
+    },
+    "timestamp": "2026-11-19T15:54:17.175372+00:00"
+  },
+  {
+    "_id": "AUD-4D345F182718",
+    "action": "USER_LOGOUT",
+    "resource_type": "user",
+    "resource_id": "USR-494B744E3F",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-494B744E3F",
+      "name": "Agastya Shetty",
+      "email": "2025cs_agastyashetty_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "status": "success"
+    },
+    "timestamp": "2026-11-19T15:54:25.784950+00:00"
+  },
+  {
+    "_id": "AUD-909F0F41F8CE",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "login_time": "2026-11-19T15:56:15.059344+00:00"
+    },
+    "timestamp": "2026-11-19T15:56:15.059381+00:00"
+  },
+  {
+    "_id": "AUD-DD80FABAC428",
+    "action": "REPORT_EXPORT_CSV",
+    "resource_type": "report",
+    "resource_id": "tickets_csv",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "record_count": 3
+    },
+    "timestamp": "2026-11-19T15:57:38.314159+00:00"
+  },
+  {
+    "_id": "AUD-6540EAF8D325",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "login_time": "2026-11-19T17:06:17.713490+00:00"
+    },
+    "timestamp": "2026-11-19T17:06:17.713532+00:00"
+  },
+  {
+    "_id": "AUD-62710C99BFCC",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "login_time": "2026-11-19T17:07:04.246718+00:00"
+    },
+    "timestamp": "2026-11-19T17:07:04.246753+00:00"
+  },
+  {
+    "_id": "AUD-2652CE9E26D3",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "login_time": "2026-11-19T17:08:12.694998+00:00"
+    },
+    "timestamp": "2026-11-19T17:08:12.695038+00:00"
+  },
+  {
+    "_id": "AUD-F6C9A5644D96",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "login_time": "2026-11-19T17:30:44.849703+00:00"
+    },
+    "timestamp": "2026-11-19T17:30:44.849740+00:00"
+  },
+  {
+    "_id": "AUD-0AADD947D57C",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "login_time": "2026-11-19T18:30:45.429571+00:00"
+    },
+    "timestamp": "2026-11-19T18:30:45.429641+00:00"
+  },
+  {
+    "_id": "AUD-611B095BBFCF",
+    "action": "USER_LOGOUT",
+    "resource_type": "user",
+    "resource_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "status": "success"
+    },
+    "timestamp": "2026-11-19T18:30:59.952847+00:00"
+  },
+  {
+    "_id": "AUD-D985AB79D336",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "login_time": "2026-11-19T18:41:42.074265+00:00"
+    },
+    "timestamp": "2026-11-19T18:41:42.074295+00:00"
+  },
+  {
+    "_id": "AUD-E270E54EF903",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "login_time": "2026-11-19T18:42:25.226025+00:00"
+    },
+    "timestamp": "2026-11-19T18:42:25.226052+00:00"
+  },
+  {
+    "_id": "AUD-04E338CF9371",
+    "action": "REPORT_EXPORT_CSV",
+    "resource_type": "report",
+    "resource_id": "tickets_csv",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "record_count": 3
+    },
+    "timestamp": "2026-11-19T18:42:52.898002+00:00"
+  },
+  {
+    "_id": "AUD-6FE1EE59499E",
+    "action": "USER_LOGOUT",
+    "resource_type": "user",
+    "resource_id": "USR-NIE-ADMIN-001",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-NIE-ADMIN-001",
+      "name": "NIE Administrator",
+      "email": "admin@nie.ac.in",
+      "role": "admin"
+    },
+    "details": {
+      "status": "success"
+    },
+    "timestamp": "2026-11-19T18:47:48.997284+00:00"
+  },
+  {
+    "_id": "AUD-54FA063390A5",
+    "action": "USER_LOGIN",
+    "resource_type": "user",
+    "resource_id": "USR-B519FABB69",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-B519FABB69",
+      "name": "Aditya Kumar",
+      "email": "2025cs_adityakumar_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "login_time": "2026-11-19T18:48:15.932600+00:00"
+    },
+    "timestamp": "2026-11-19T18:48:15.932628+00:00"
+  },
+  {
+    "_id": "AUD-BC42D957F4E7",
+    "action": "TICKET_CREATED",
+    "resource_type": "ticket",
+    "resource_id": "FIXIT-2026-0004",
+    "institution_id": "INST-NIE",
+    "actor": {
+      "user_id": "USR-B519FABB69",
+      "name": "Aditya Kumar",
+      "email": "2025cs_adityakumar_a@nie.ac.in",
+      "role": "student"
+    },
+    "details": {
+      "title": "light is flickering in class",
+      "priority": "critical",
+      "category": "Lighting, Tube Lights & Bulbs"
+    },
+    "timestamp": "2026-11-19T18:54:56.298610+00:00"
+  }
+]

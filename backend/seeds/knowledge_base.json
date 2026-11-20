@@ -1,0 +1,167 @@
+[
+  {
+    "_id": "KB-ART-001",
+    "title": "How to Connect to Campus High-Speed Wi-Fi (Eduroam)",
+    "category": "Network and Wi-Fi",
+    "content": "To connect your laptop or mobile device to the official campus Wi-Fi network:\n\n1. Enable Wi-Fi on your device and select 'Eduroam' or 'Campus-Secure'.\n2. When prompted for EAP Method, select 'PEAP'.\n3. Phase 2 authentication should be set to 'MSCHAPV2'.\n4. CA Certificate: Select 'Do not validate' or use system certificates.\n5. Identity: Enter your full college email address (e.g. rahul.student@college.edu).\n6. Password: Enter your campus portal password.\n7. Click Connect. If you encounter authentication timeouts, clear saved networks and re-enter credentials.",
+    "tags": [
+      "wifi",
+      "eduroam",
+      "network",
+      "internet"
+    ],
+    "views": 420,
+    "helpful_count": 89,
+    "not_helpful_count": 3,
+    "author_name": "Alex Rivera",
+    "is_published": true,
+    "created_at": "2026-10-09T06:37:51.226093+00:00",
+    "updated_at": "2026-11-18T06:37:51.226093+00:00",
+    "institution_id": "INST-DEFAULT"
+  },
+  {
+    "_id": "KB-ART-002",
+    "title": "Troubleshooting Classroom Projector HDMI and Audio Output",
+    "category": "Projector and Smart Classroom",
+    "content": "If the ceiling projector in your classroom displays 'No Signal' or has no sound:\n\n1. Ensure the wall podium control panel is powered ON (Green indicator).\n2. Press 'Laptop / HDMI 1' on the switcher button.\n3. On Windows, press `Windows Key + P` and choose 'Duplicate' or 'Extend'.\n4. For Mac: Open System Settings -> Displays -> Arrangement, and ensure Mirror Display is enabled.\n5. If sound is missing: Right-click the speaker icon in Windows -> Sound Output -> Select 'Crestron Audio / Extron Audio'.\n6. If the lamp warning light flashes amber, submit a Critical ticket immediately for lamp replacement.",
+    "tags": [
+      "projector",
+      "hdmi",
+      "smart classroom",
+      "audio",
+      "display"
+    ],
+    "views": 310,
+    "helpful_count": 64,
+    "not_helpful_count": 2,
+    "author_name": "Marcus Chen",
+    "is_published": true,
+    "created_at": "2026-10-14T06:37:51.226093+00:00",
+    "updated_at": "2026-11-18T06:37:51.226093+00:00",
+    "institution_id": "INST-DEFAULT"
+  },
+  {
+    "_id": "KB-ART-003",
+    "title": "Resetting Forgotten College Portal and LMS Passwords",
+    "category": "Account and Login",
+    "content": "If you are locked out of the student or faculty portal:\n\n1. Visit the portal login page and click 'Forgot Password?'.\n2. Enter your registered institutional email address or student roll number.\n3. A one-time verification link will be sent to your alternative email or SMS.\n4. Ensure your new password contains at least 8 characters, with 1 uppercase, 1 numeral, and 1 special symbol.\n5. Note: Active Directory synchronizes password changes within 15 minutes across Wi-Fi, LMS, and lab computers.",
+    "tags": [
+      "password",
+      "login",
+      "portal",
+      "account"
+    ],
+    "views": 580,
+    "helpful_count": 142,
+    "not_helpful_count": 5,
+    "author_name": "Priya Patel",
+    "is_published": true,
+    "created_at": "2026-09-29T06:37:51.226093+00:00",
+    "updated_at": "2026-11-18T06:37:51.226093+00:00",
+    "institution_id": "INST-DEFAULT"
+  },
+  {
+    "_id": "KB-NIE-001",
+    "author_name": "Campus IT Operations",
+    "category": "Wi-Fi & Wireless Connectivity",
+    "content": "### Common Problem\nStudents and faculty often experience Wi-Fi drops, captive portal timeout, or 'Obtaining IP address' errors when connecting to the college network.\n\n### Why This Happens\n- Saved device credentials may be out of date.\n- The 802.1X PEAP authentication protocol requires specific security settings.\n- IP pool exhaustion occurs if a device holds onto an expired DHCP lease.\n\n### Quick Fix (You can do this right away)\n1. **Forget Network**: Go to your device Wi-Fi settings, select `NIE-Secure` or `Eduroam`, and click **Forget**.\n2. **Re-enter Settings**:\n   - **EAP Method**: `PEAP`\n   - **Phase 2 Authentication**: `MSCHAPV2`\n   - **CA Certificate**: `Do not validate` (or `Trust on First Use`)\n   - **Identity**: Enter your full college email (e.g. `2025cs_agastyashetty_a@nie.ac.in`)\n   - **Password**: Enter your campus account password.\n3. **DNS Flush**: If on a Windows laptop, open Command Prompt and type `ipconfig /flushdns` then `ipconfig /renew`.\n4. If still unresolved, report a ticket under **Wi-Fi & Wireless Connectivity** with your floor location.",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "helpful_count": 88,
+    "institution_id": "INST-NIE",
+    "is_published": true,
+    "not_helpful_count": 2,
+    "tags": [
+      "wifi",
+      "internet",
+      "network",
+      "eduroam",
+      "portal"
+    ],
+    "title": "How to Connect to Campus High-Speed Wi-Fi (Eduroam & Captive Portal)",
+    "updated_at": "2026-11-19T11:39:24.270092+00:00",
+    "views": 420
+  },
+  {
+    "_id": "KB-NIE-002",
+    "author_name": "Facilities & AV Team",
+    "category": "Classroom Projectors & Screens",
+    "content": "### Common Problem\nProjector displays 'No Signal', flickers constantly, or projects video without sound from the podium laptop.\n\n### Why This Happens\n- Windows display arrangement defaults to 'PC screen only'.\n- Crestron/Extron audio switchers do not route analog audio unless HDMI handshake completes.\n- Podium HDMI switch is set to the wrong input source.\n\n### Quick Fix (You can do this right away)\n1. **Display Mirroring**: Press `Windows Key + P` on your laptop and choose **Duplicate**.\n2. **Resolution Check**: Set your laptop display resolution to `1920x1080` (1080p).\n3. **Sound Output**:\n   - Click the speaker icon in the Windows taskbar.\n   - Switch the output device from *Realtek Audio* to **Extron Audio / Crestron HDMI**.\n4. **Physical Switcher**: On the podium control box, press the button labeled **Laptop / HDMI 1** until the green LED turns solid.\n5. If the projector lamp warning LED is blinking red/amber, raise a **Critical** ticket for lamp replacement.",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "helpful_count": 65,
+    "institution_id": "INST-NIE",
+    "is_published": true,
+    "not_helpful_count": 1,
+    "tags": [
+      "projector",
+      "hdmi",
+      "smart classroom",
+      "audio",
+      "display"
+    ],
+    "title": "Troubleshooting Classroom Projector HDMI & Audio in Smart Halls",
+    "updated_at": "2026-11-19T11:39:24.270092+00:00",
+    "views": 312
+  },
+  {
+    "_id": "KB-NIE-003",
+    "author_name": "CSE Systems Admin",
+    "category": "Operating System & Boot Errors",
+    "content": "### Common Problem\nLab computer turns on but halts at `grub rescue>` or displays a Windows `UNMOUNTABLE_BOOT_VOLUME` error.\n\n### Why This Happens\n- Dual-boot installations (Ubuntu + Windows) can desync if power is cut suddenly while writing to disk.\n- USB flash drives left plugged in can cause the BIOS to attempt booting from the USB drive.\n\n### Quick Fix (You can do this right away)\n1. **Unplug USB Drives**: Ensure all external pen drives and phone charging cables are unplugged from front and rear USB ports.\n2. **Reboot**: Press and hold the power button for 8 seconds until the machine powers off, wait 5 seconds, and power on.\n3. **BIOS Boot Menu**: Tap `F12` (or `F2` on Dell/HP) during startup.\n4. Select **Ubuntu** or **Windows Boot Manager** directly from the UEFI boot list.\n5. If the hard disk is making clicking sounds or cannot be detected, submit a ticket under **Operating System & Boot Errors**.",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "helpful_count": 52,
+    "institution_id": "INST-NIE",
+    "is_published": true,
+    "not_helpful_count": 3,
+    "tags": [
+      "grub",
+      "boot",
+      "lab",
+      "computer",
+      "bsod"
+    ],
+    "title": "Lab Workstation Boot Errors (Grub Rescue & Blue Screen BSOD)",
+    "updated_at": "2026-11-19T11:39:24.270092+00:00",
+    "views": 250
+  },
+  {
+    "_id": "KB-NIE-004",
+    "author_name": "Campus IT Operations",
+    "category": "College Email & Account Access",
+    "content": "### Common Problem\nAccount locked out after multiple unsuccessful login attempts on the student/faculty portal.\n\n### Why This Happens\n- Passwords expire every 90 days as per campus security policies.\n- Mobile phones repeatedly trying old cached Wi-Fi credentials can trigger account rate-limiting.\n\n### Quick Fix (You can do this right away)\n1. Turn off Wi-Fi on your phone to prevent automatic credential retry lockouts.\n2. Go to the FixIt login screen and click **Forgot Password?**.\n3. Enter your institutional email address (`@nie.ac.in`).\n4. Check your recovery inbox for the secure reset link (valid for 15 minutes).\n5. Choose a password with at least 8 characters including 1 uppercase, 1 numeral, and 1 special symbol.\n6. Once reset, wait 2 minutes for Active Directory to replicate across the campus network.",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "helpful_count": 140,
+    "institution_id": "INST-NIE",
+    "is_published": true,
+    "not_helpful_count": 4,
+    "tags": [
+      "password",
+      "portal",
+      "lms",
+      "account",
+      "login"
+    ],
+    "title": "Resetting Forgotten College Portal, LMS & ERP Passwords",
+    "updated_at": "2026-11-19T11:39:24.270092+00:00",
+    "views": 590
+  },
+  {
+    "_id": "KB-NIE-005",
+    "author_name": "Facilities & Hardware Support",
+    "category": "Printers, Scanners & Copiers",
+    "content": "### Common Problem\nPrinter status shows 'Offline' or 'Paper Jam' even though paper is present in the tray.\n\n### Why This Happens\n- Print spooler service on Windows stops responding when corrupted PDF documents are queued.\n- Sensor rollers detect micro-tears from curled or damp paper.\n\n### Quick Fix (You can do this right away)\n1. Open the front door of the printer and verify no small paper fragments are caught in the feed roller.\n2. Ensure paper in Tray 2 is aligned against the plastic edge guides.\n3. On Windows: Press `Win + R`, type `services.msc`, locate **Print Spooler**, right-click and choose **Restart**.\n4. Power cycle the printer: Switch OFF the toggle, wait 10 seconds, and switch back ON.\n5. If the toner cartridge is empty (indicated by blinking yellow cartridge light), submit a ticket under **Printers, Scanners & Copiers**.",
+    "created_at": "2026-11-19T11:39:24.270092+00:00",
+    "helpful_count": 39,
+    "institution_id": "INST-NIE",
+    "is_published": true,
+    "not_helpful_count": 1,
+    "tags": [
+      "printer",
+      "paper jam",
+      "spooler",
+      "hardware"
+    ],
+    "title": "Resolving Network Printer Spooler & Paper Jam Issues",
+    "updated_at": "2026-11-19T11:39:24.270092+00:00",
+    "views": 180
+  }
+]
